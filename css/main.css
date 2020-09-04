@@ -85,7 +85,15 @@ textarea {
 
 /* ==========================================================================
    Author's custom styles
+
    ========================================================================== */
+
+
+      /* ------------------- Body Styles ------------------ */
+
+      body{
+        margin: 0 20px;
+      }
 
    /* ------------------- Base Header-Footer Styles ------------------ */
 
@@ -96,9 +104,15 @@ textarea {
     flex-flow: row wrap;
    }
 
+.content-wrapper{
+  width: 90%;
+}
 
    /* Header Styles */
 
+header{
+  padding: 15px 0;
+}
 
   header .content-wrapper{
     display: flex;
@@ -108,7 +122,7 @@ textarea {
   }
 
   .header-divider {
-
+width: 100%;
   }
 
   header nav {
@@ -116,6 +130,7 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    width: 60%;
   }
 
   header nav ul {
@@ -123,6 +138,7 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    width: 45%;
   }
 
   header nav ul li a{
@@ -136,6 +152,11 @@ textarea {
     flex-flow: row wrap;
   }
 
+
+  header .content-wrapper p{
+    margin: 0;
+  }
+
    /* Footer Styles */
 
    footer{
@@ -146,7 +167,13 @@ footer .content-wrapper{
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 55%;
+  margin: 50px; 0;
 
+}
+
+footer p{
+  margin: 0;
 }
 
    .footer-content{
@@ -177,7 +204,7 @@ footer .content-wrapper{
    }
 
    .copyright{
-
+padding: 0 85px;
    }
 
    /* ------------------- Mobile Styles - Homepage ------------------ */
@@ -214,6 +241,14 @@ aside{
 
 }
 
+.features article{
+  width: 45%;
+}
+
+.features p{
+  margin: 0;
+}
+
 .features-item-description{
 
 }
@@ -229,6 +264,9 @@ aside{
   flex-flow: row wrap;
 }
 
+.reviews h3{
+  width: 47%;
+}
    /* ------------------- Mobile Styles - About ------------------ */
 
 .mission{
