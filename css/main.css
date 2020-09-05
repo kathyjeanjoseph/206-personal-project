@@ -131,7 +131,7 @@ textarea {
       }
 
       figure {
-
+        margin: 0;
       }
 
       a {
@@ -167,6 +167,14 @@ textarea {
     padding: 15px 0;
     background-color: #202322;
   }
+
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
 
   header .content-wrapper{
     display: flex;
@@ -206,7 +214,7 @@ margin: 10px 0 20px 0;
 
   .hero-area{
     background: url('../img/hero-img.jpg');
-    background-position: top center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -274,6 +282,7 @@ font-weight: lighter;
   min-height: 388px;
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   flex-flow: row wrap;
 }
 
@@ -332,9 +341,11 @@ input[type=button] {
   background: url('../img/features-img.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
   text-align: center;
   padding: 65px 0;
   background-color: #202322;
@@ -553,6 +564,10 @@ input[type=button] {
     justify-content: space-between;
   }
 
+  header figure{
+    width: 30% ;
+  }
+
   header nav {
     width: 20%;
   }
@@ -601,6 +616,13 @@ input[type=button] {
 
   .reviews article div {
     width: 49%;
+  }
+
+  .reviews figure{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
   }
 
   /* Footer */
@@ -678,6 +700,10 @@ input[type=button] {
         width: 60%;  /* percentage  */
     }
 
+    header figure{
+      width: 25%;
+    }
+
     /* Aside */
     aside .content-wrapper {
         justify-content: space-around;
@@ -700,6 +726,13 @@ input[type=button] {
     /* Reviews */
     .reviews article div {
         width: 42%; /* exact */
+    }
+
+    .reviews figure{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
     }
 
 /* ==========================================================================
