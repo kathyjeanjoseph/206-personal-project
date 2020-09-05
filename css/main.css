@@ -262,6 +262,16 @@ margin-bottom: 50px;
      align-items: center;
    }
 
+   footer .social-icons i{
+     border-radius: 3px;
+     width: 30%;
+     color: #fff;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
    footer .social-icons p{
      display: flex;
      justify-content: space-around;
