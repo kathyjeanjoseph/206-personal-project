@@ -611,6 +611,12 @@ input[type=button] {
     margin: 0;
   }
 
+  .map figure{
+    padding-bottom: 45%;
+  }
+
+
+
   /* Features */
   .features article {
     display: flex;
@@ -757,6 +763,10 @@ input[type=button] {
     .mission h2,
     .contact-section .content-wrapper h2 {
         width: 95%; /* exact */
+    }
+
+    .map figure{
+      padding-bottom: 37.5%;
     }
 
 /* ==========================================================================
